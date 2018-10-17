@@ -4,13 +4,13 @@
 version: '3'
 services:
   db:
-    image: mysql:8.0
+    image: mysql:5.7.23
     ports:
       - "3316:3306"
     environment:
       MYSQL_ROOT_PASSWORD: password
-    volumes:
-      - ./mysql/conf.d:/etc/mysql/conf.d
+    # volumes:
+    #   - ./mysql/conf.d:/etc/mysql/conf.d
 
   server:
     build: .
