@@ -1,4 +1,4 @@
-FROM ruby:2.5.0
+FROM ruby:2.6.0
 LABEL maintainer 'Toshiki Kawazoe <toshiki.k.000@gmail.com>'
 
 # set environment variables
