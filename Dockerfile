@@ -5,6 +5,8 @@ LABEL maintainer 'Toshiki Kawazoe <toshiki.k.000@gmail.com>'
 ENV LANG C.UTF-8
 ENV APP_ROOT /myapp
 
+ENV DEBCONF_NOWARNINGS yes
+
 # install essential libraries
 RUN apt-get update -qq && apt-get install -y build-essential mysql-client libpq-dev
 
