@@ -16,8 +16,8 @@ This project is made easy to create that Rails on docker.
 # Build server
   1. `$ docker-compose build`
   2. `$ docker-compose up -d`
-  3. Type below on other window
-    * `$ docker-compose exec server rails db:create db:migrate`
+  3. Type below on other window  
+    `$ docker-compose exec server rails db:create db:migrate`
 
 
 # How to use when developing
